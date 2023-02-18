@@ -4,7 +4,7 @@ const App = () => {
   const [prompt, setPrompt] = useState("");
   const [text, setText] = useState("");
   const [isLoading, setIsLoading] = useState(false);
-  const apiKey = "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";
+  const apiKey = "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";
   const model = "text-davinci-002";
 
   const handlePromptChange = (event) => {
